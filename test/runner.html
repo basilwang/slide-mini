@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>测试用例</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="stylesheet" href="./lib/mocha.css"/>
+	<!--测试用例写法参照 KISSY MINI 的测试用例-->
+    <script type="text/javascript" src="./lib/mocha.js"></script>
+	<script type="text/javascript" src="./lib/chai.js"></script>
+	<script type="text/javascript" src="./lib/async.js"></script>
+	<script type="text/javascript" src="./lib/simulate-dom-event.js"></script>
+	<script src="http://g.alicdn.com/kissy/m/1.0.0/mini-min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    mocha.ui('bdd');
+    mocha.reporter('html');
+    chai.should();
+    expect = chai.expect;
+</script>
+<div id="log"></div>
+<div id="mocha"></div>
+<script src="spec.js"></script><!--测试用例js文件-->
+<script type="text/javascript">
+    if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+    } else {
+        mocha.run();
+    }
+</script>
+</body>
+</html>

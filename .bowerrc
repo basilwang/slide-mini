@@ -1,0 +1,4 @@
+{
+	"directory":"./",
+	"shorthand_resolver":"http://github.com/{{{owner}}}/{{{package}}}.git"
+}

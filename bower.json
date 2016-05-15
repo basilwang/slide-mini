@@ -1,0 +1,17 @@
+{
+    "name": "slide",
+    "version": "0.1.0",
+    "description": "Slide",
+    "authors": [
+        "basilwang <wanghuajie@yunwii.com>"
+    ],
+    "main": "./index.js",
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}

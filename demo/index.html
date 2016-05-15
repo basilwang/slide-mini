@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<script src="http://g.alicdn.com/kissy/m/1.0.0/mini-min.js"></script>
+	<title>Demo</title>
+</head>
+<body>
+	<h1>Demo 正文</h1>
+	<div id="log"></div>
+<script>
+	var S = KISSY;
+	S.config({
+		packages:[{
+			name:'slide',
+			path:'../'
+		}]
+	});
+	KISSY.use('slide/index',function(S,Slide){
+		Slide.init();
+	});
+</script>
+</body>
+</html>
