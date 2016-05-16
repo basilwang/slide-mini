@@ -23,6 +23,7 @@
         "*.html",
         "src",
         "tests",
+        "test",
         "*.md",
         "package.json"
 
