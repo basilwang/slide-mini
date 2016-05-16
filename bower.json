@@ -7,8 +7,25 @@
     ],
     "main": "./index.js",
     "ignore": [
+        "**/.*",
         ".jshintrc",
-        "**/*.txt"
+        "CNAME",
+        "docs",
+        "*.js",
+        "highlight",
+        "images",
+        "javascripts",
+        "params.json",
+        "README.md",
+        "source",
+        "stylesheets",
+        "demo",
+        "*.html",
+        "src",
+        "tests",
+        "*.md",
+        "package.json"
+
     ],
     "dependencies": {
     },
