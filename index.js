@@ -313,6 +313,6 @@ KISSY.add(function(S, Node, iScroll) {
 	});
 	return SimpleSlide;
 }, {
-	requires: [ "node", "../iscroll/" ]
+	requires: [ "node", "../iscroll-mini/" ]
 });
 
