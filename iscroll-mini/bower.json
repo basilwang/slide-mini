@@ -1,7 +1,7 @@
 {
-    "name": "slide",
+    "name": "iscroll",
     "version": "0.1.0",
-    "description": "Slide",
+    "description": "Iscroll",
     "authors": [
         "basilwang <wanghuajie@yunwii.com>"
     ],
@@ -26,10 +26,8 @@
         "test",
         "*.md",
         "package.json"
-
     ],
     "dependencies": {
-        "iscroll-mini": "iscroll-mini#latest"
     },
     "devDependencies": {
     }

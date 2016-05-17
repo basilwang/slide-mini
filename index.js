@@ -7,7 +7,7 @@
  *		Slide.init();
  * });
  */
-KISSY.add("h5-home/widgets/simple-slide/index", function(S, Node, iScroll) {
+KISSY.add(function(S, Node, iScroll) {
 	var requestAnimFrame = function() {
 		return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || function(callback) {
 				window.setTimeout(callback, 1e3 / 60);
